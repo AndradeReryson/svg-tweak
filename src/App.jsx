@@ -8,7 +8,7 @@ export default function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path='/' element={<TelaPrincipal/>} />
+          <Route index element={<TelaPrincipal/>} />
         </Routes>
       </HashRouter>
     </>
