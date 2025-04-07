@@ -159,7 +159,6 @@ const SVGEditor = ({selectedSVG}) => {
               {estados.map((cor, idx) => {
                 return(
                   <div key={idx} className='linhaCor'>
-                    {/*<h5 style={{color: "#FAF9F6", whiteSpace: 'nowrap'}}>Cor {idx+1}:</h5>*/}    
                     <ColorPicker nome={cor.nome} color={cor.hexAtual} mudarCor={mudarCor} />
                   </div> 
                 )
