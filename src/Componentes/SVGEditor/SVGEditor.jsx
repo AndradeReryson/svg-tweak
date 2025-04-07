@@ -132,25 +132,30 @@ const SVGEditor = ({selectedSVG}) => {
         <div className='divSVGButtons'>
           <SVGDisplay className="SVGEditorVerticalMargin" getSVG={getSVGModificado}/>
 
-          <div style={{width: '100%'}}>
-            <h5 style={{textAlign: 'center', color: '#FAF9F6'}}>Tamanho (Exportação)</h5>
-            <div className='linhaTamanho'>
-              <InputNumero value={width} setValue={setWidth}/>
-              <h6 style={{color: "#FAF9F6", margin: '0 4px'}}>X</h6>
-              <InputNumero value={height} setValue={setHeight}/>
-            </div>
-            <Botao 
-              className="SVGEditorVerticalMargin" 
-              titulo="Baixar SVG" 
-              onClick={() => baixarSVG(width, height)}
-            />
+          {selectedSVG != "" ? (
+            <div style={{width: '100%'}}>
+              <h5 style={{textAlign: 'center', color: '#FAF9F6'}}>Tamanho (Exportação)</h5>
+              <div className='linhaTamanho'>
+                <InputNumero value={width} setValue={setWidth}/>
+                <h6 style={{color: "#FAF9F6", margin: '0 4px'}}>X</h6>
+                <InputNumero value={height} setValue={setHeight}/>
+              </div>
+              <Botao 
+                className="SVGEditorVerticalMargin" 
+                titulo="Baixar SVG" 
+                onClick={() => baixarSVG(width, height)}
+              />
 
-            <Botao 
-              className="SVGEditorVerticalMargin" 
-              titulo="Baixar PNG" 
-              onClick={() => baixarPNG(width, height)}
-            />
-          </div>
+              <Botao 
+                className="SVGEditorVerticalMargin" 
+                titulo="Baixar PNG" 
+                onClick={() => baixarPNG(width, height)}
+              />
+            </div>
+          ) : (
+            undefined
+          )}
+          
         </div>
       </div>
 
