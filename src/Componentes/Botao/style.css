@@ -1,0 +1,18 @@
+.botao{
+  width: auto;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  /**/
+  padding: 4px 10%;
+  border: 2px solid #FAF9F6;
+  border-radius: 8px;
+  background-color: #FAF9F6;
+  cursor: pointer;
+  
+}
+
+.botao > h4{
+  user-select: none;
+}

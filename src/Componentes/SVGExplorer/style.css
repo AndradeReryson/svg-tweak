@@ -1,0 +1,25 @@
+.SVGExplorer{
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  /**/
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #FAF9F6;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: rgba(11, 18, 21, 0.2);
+  overflow: auto;
+  align-items: center;
+}
+
+
+  .itensGrid{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 7vw);
+    grid-auto-rows: 7vw;
+    gap: 1vw;
+    justify-content: center;
+    padding: 20px 0;
+  }

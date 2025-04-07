@@ -1,0 +1,26 @@
+.inputNumero{
+  width: 6vw;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 2px 12px;
+}
+
+.linhaTamanho{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

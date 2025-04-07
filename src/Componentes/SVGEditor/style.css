@@ -1,0 +1,60 @@
+.menuEditSVG{
+  grid-row: 2 / 3;
+  grid-column: 3 / 5;
+  /**/
+  display: grid;
+  grid-template-columns: 1fr auto;
+  flex-direction: column;
+  
+  overflow: auto;
+}
+
+  .menuSectionSVG{
+    grid: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FAF9F6;
+    background-color: rgba(11, 18, 21, 0.2);
+    margin: 20px 10px;
+    border-radius: 4px;
+    overflow: auto;
+  }
+
+    .divSVGButtons{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+    }
+
+  .menuSectionColors{
+    grid: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FAF9F6;
+    background-color: rgba(11, 18, 21, 0.2);
+    margin: 20px 10px;
+    border-radius: 4px;
+    overflow: auto;
+  }
+
+.colorsContainer{
+  overflow: auto;
+  padding: 0 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.linhaCor{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.SVGEditorVerticalMargin {
+  margin: 10px 0;
+}

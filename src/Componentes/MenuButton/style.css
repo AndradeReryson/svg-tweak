@@ -1,0 +1,16 @@
+.container{
+  align-self: stretch;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected{
+  border: 1px solid #000;
+}
+
+.placeholder{
+  user-select: none;
+  cursor: pointer;
+}
