@@ -7,7 +7,7 @@ const InputNumero = ({value, setValue}) => {
       className="inputNumero" 
       type='number'
       value={value || ""} 
-      onChange={setValue}
+      onChange={e => setValue(e.target.value)}
     />
   )
 }
