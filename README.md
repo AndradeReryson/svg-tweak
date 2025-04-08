@@ -1,12 +1,20 @@
-# React + Vite
+<img src="https://github.com/AndradeReryson/svg-tweak/blob/main/public/svgs/DEV_13.svg" width="250"/> <br>
+# SVG Tweak
+Pequena coleção de vetores com um editor de cores que permite exportação para SVG/PNG
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo
+- Criar um repositório pessoal de vetores
+- Faciliar a alteração de cor e tamanho dos vetores para uso em projetos
+- Fazer deploy de um projeto React para o Github Pages
 
-Currently, two official plugins are available:
+## Features Planejadas
+- Permitir o envio de arquivos para edição e exportação
+- Permitir alteração de SVGs de outras fontes além do Inkscape
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como Utilizar
+**SÓ FUNCIONA COM ARQUIVOS SVG DO INKSCAPE** <br>
+- Faça um fork no projeto
+- Adicione seus arquivos na pasta "public/svgs/"
+- Ainda na pasta "svgs", coloque o nome dos seus arquivos dentro do "listaVetores.json"
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## [Acesse o website](https://andradereryson.github.io/svg-tweak/)
